@@ -42,15 +42,57 @@ padding: 1%;
 
 
   .Eye{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
 
+}
+/* For Mobile devices          */
+@media(max-width:480px){
+img{
+    width:5px;
+}
+h1 ,p{
+    color:saddlebrown;
+    font-size:2rem;
+}
+}
+
+/* For iPads,Tablets*/
+
+@media((min-width:481px)and(max-width:768px))
+{
+img{
+
+    width:5px;
+}
+h1,p{
+    color:green;
+    font-size:2rem;
 }
 
 
+}
+
+/*Extra large screens*/
+
+@media(min-width:1201px){
+img{
+    width:1201px;
+    h1,p{
+        color:black;
+        font-size:8rem;
+    }
+}
+
+
+}
 
   
-
+footer{
+    text-align:center;
+    padding:3px;
+    background-color:darkgray;
+}
   
 
   
