@@ -57,6 +57,10 @@ h1 ,p{
 }
 }
 
+
+
+
+
 /* For iPads,Tablets*/
 
 @media((min-width:481px)and(max-width:768px))
@@ -67,7 +71,7 @@ img{
 }
 h1,p{
     color:green;
-    font-size:2rem;
+    font-size:1rem;
 }
 
 
