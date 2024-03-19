@@ -84,7 +84,7 @@ img{
     width:1201px;
     h1,p{
         color:black;
-        font-size:8rem;
+        font-size:100rem;
     }
 }
 
@@ -94,7 +94,8 @@ img{
   
 footer{
     text-align:center;
-    padding:3px;
+    padding:2px;
+    height:auto;
     background-color:darkgray;
 }
   
